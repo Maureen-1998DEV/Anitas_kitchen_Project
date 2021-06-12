@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Anita's Kitchen</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="part">
+            <div class="menulines">
+                <button class="fa fa-bars fa-lg" aria-hidden="true" ></button>
+
+            </div>
+            <div class="logo">
+                <img src="Assets/logoBig.png" alt="Anitas logo">
+                <p>We Provide The Best Food <br> At The <strong>Right Price</strong></p>
+            </div>
+        </div>
+        <!-- Section 2 includes the Drinks, Breakfast, Lunch and Dinner Clickable Menu-->
+        <div class="part-one">
+            <div class="rst1">
+                <div class="hp">
+                    <p class="happyhour">Happy Hour </p>
+                    <p class="partytime">Party Time</p>
+                </div>
+
+                
+                    <p id="breakfast">Breakfast</p>
+                
+                
+                    <p id="lunch">Lunch</p>
+            
+            
+                    <p id="dinner">Dinner</p>
+        
+
+            </div>
+        </div>
+        <!-- Section 3 includes information on Fast food and Drink items with photos-->
+        <div class="part two">
+            <!--Fast food row-->
+            <div class="fast food">
+                <div class="col-md-6  fastFoodPhotos">
+                    <img src="Assets/fastFood1.jpg" alt="fastfoodphoto"><br>
+                    <img src="Assets/fastFood2 (1).jpg" alt="fastFoodphoto.">
+                </div>
+
+                <div class="part-three">
+                    <div class="fastFood">
+                        <h3>Fast Food</h3>
+                        <h4>You'll love our delicious food.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" name="button">View Gallery &rarr;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Drink Information Row-->
+            <div class="row drinksInfoRow">
+                <div class="col-md-6 drinksInfo">
+
+                    <h3>Drinks</h3>
+                    <h4>We also produce delicious drinks.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button type="button" name="button">View Gallery &rarr;</button>
+                </div>
+
+                <div class="col-md-6 drinksInfoPhotos">
+                    <img src="Assets/drink1.jpg" alt="Drinks photo">
+                    <img src="Assets/drink2 (1).jpg" alt="Drinks photo">
+                </div>
+            </div>
+        </div>
+        <!-- Section 4 includes navigation tabs for various menu items each with image carousels-->
+        <div class="part-four">
+        
+            <div class="navbar-1">
+                <ul class="nav title">
+                    <li><a data-toggle="tab" href="#fastFood">Fast Food</a></li>
+                    <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
+                    <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
+                    <li><a data-toggle="tab" href="#rice">Rice</a></li>
+                </ul>
+                <!-- Tab Content includes four carousels for the four tabs-->
+                <div class="tab-content">
+                    <!-- Content for Fast Food Tab containing it's carousel-->
+                    <div id="fastfood" class="tab-pane fade in active">
+                        <div id="fastFoodCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#fastFoodCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#fastFoodCarousel" data-slide-to="1" class="active"></li>
+                                <li data-target="#fastFoodCarousel" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    
+
+                                    
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#fastFoodCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#fastFoodCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="Assets/chickenBurger.jpg" alt="Chicken Burger">
+                                    <h3> Chicken Burger</h3>
+                                </div>
+                                <div class="item active ">
+                                    <img src="Assets/beefBurger.jpg" alt="Beef Burger">
+                                    <h3>Beef Burger</h3>
+                                </div>
+                                <div class="item active">
+                                    <img src="Assets/chickenPizza.jpg" alt="Chicken Pizza">
+                                    <h3>Chicken Burger</h3>
+                                </div>
+                        </div>
+                    </div>
+
+                    
+                    
+        <!-- Section 5 includes testimonials from customers as a slideshow and information about the menu-->
+        <div class="section5">
+            <div class="row">
+                <div class="col-md-8 customers">
+                    <h4>Our happy customers</h4>
+                    <div id="testimonials" class="carousel" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonials" data-slide-to="1"></li>
+                            <li data-target="#testimonials" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <h5>George Richard</h5>
+                                <p>Great food! Menu is awesome, their foods are not only great but also have great pricing. I'll highly recommend them:)</p>
+                                <img src="Assets/p1.png" alt="Customer 1">
+                            </div>
+                                <img src="Assets/p2.png" alt="Customer 2">
+                        </div>
+                                <img src="Assets/p3.png" alt="Customer 3">
+                            </div>
+                        </div>
+
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#testimonials" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#testimonials" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 about">
+                    <h4>About Menu</h4>
+                    <p>We are a small team of 7 members. Ut wisi enim ad minim veniam. Quis nos trudexer ci tation ullamcorper suscipit lob oritis nisl aiuquip ex oa commodo conse quat. Duisau temvel eum iriure dolor in.</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- Section 6 includes an email entry form for a subscription list-->
+        <div class="part-5">
+            <p> Get our daily food items delivered to your email</p>
+            <div class="form-group">
+                <form id="subscribtionList">
+                    <div class="rows">
+                        <div class="col-md-8">
+                            <input type="email" id="emailaddress" class="form-control" placeholder="Your email">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="button" value="Subscribe" id="subscribe" class="form-control">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Section 7 includes the website footer-->
+        <div class="section7">
+            <div class="footer">
+                <h5>
+                    <img src="Assets/logo_white.png" alt="White Logo">MENU
+                </h5>
+                <p>Thats what we are</p>
+                <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-square fa-lg" aria-hidden="true"></i>
+                <p id="copyright">2016 Menu Restaurant</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+ 
